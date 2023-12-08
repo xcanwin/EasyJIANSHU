@@ -55,3 +55,8 @@
 - 减少```频繁地```上下滚动鼠标。
 - 减少```频繁地```左右滚动鼠标。
 - 释放鼠标手，提升体验感。
+
+## 其他
+
+- [EasyCSDN](https://github.com/xcanwin/EasyCSDN/) 与 [EasyJIANSHU](https://github.com/xcanwin/EasyJIANSHU/) 会保持相同的视觉效果，推荐都安装。
+
