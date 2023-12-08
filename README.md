@@ -2,10 +2,12 @@
 
 <center><div align="center">
 
-# EasyJIANSHU
+
 
 <br>
 
+<img alt="version" src="https://img.shields.io/greasyfork/v/481661?style=for-the-badge&label=%E7%89%88%E6%9C%AC&logo=velog&logoColor=BE95FF&color=7B68EE"></img>
+<img alt="download" src="https://img.shields.io/greasyfork/dt/481661?style=for-the-badge&label=%E7%94%A8%E6%88%B7%E5%AE%89%E8%A3%85%E9%87%8F&logo=bilibili&logoColor=78FF96"></img>
 <img alt="stars" src="https://img.shields.io/github/stars/xcanwin/EasyJIANSHU?style=for-the-badge&label=Stars&logo=undertale&logoColor=red&color=orange"></img>
 <img alt="forks" src="https://img.shields.io/github/forks/xcanwin/EasyJIANSHU?style=for-the-badge&label=Forks&logo=stackshare&logoColor=green&color=0AC18E"></img>
 <img alt="javascript" src="https://img.shields.io/badge/JavaScript-%3E%3DES13-green?style=for-the-badge&label=JavaScript&logo=JavaScript&color=FDEE21"></img>
@@ -31,6 +33,7 @@
 | 序号 | UserScript源 | 备注 |
 | --- | --- | --- |
 | 1 | [Github开源社区](https://raw.githubusercontent.com/xcanwin/EasyJIANSHU/main/EasyJIANSHU.user.js) | ✅推荐 |
+| 2 | [GreasyFork开源社区](https://greasyfork.org/zh-CN/scripts/481661-easyjianshu) | ✅推荐 |
 
 ## 使用方法
 
