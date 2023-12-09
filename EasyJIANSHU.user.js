@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EasyJIANSHU
 // @description  这是一款促进简书极致简洁和高效的插件。免费共享大量创新功能，如：净化页面、展示全屏等。让我们的学习体验无比简洁、专注、高效、畅快。
-// @version      4.0
+// @version      5.0
 // @author       xcanwin
 // @namespace    https://github.com/xcanwin/EasyJIANSHU/
 // @supportURL   https://github.com/xcanwin/EasyJIANSHU/
@@ -68,6 +68,7 @@ footer /*隐藏[置顶的][底部的]评论查看栏*/,
     width: 28px !important;
     height: 28px !important;
     margin: 6px !important;
+    margin-right: 25px !important;
 }
 
 /*调整文章信息栏*/
@@ -77,7 +78,8 @@ footer /*隐藏[置顶的][底部的]评论查看栏*/,
 }
 ._3U4Smb {
     margin-bottom: unset !important;
-    float: left;
+    margin-right: 15px !important;
+    float: left !important;
 }
 .FxYr8x {
     font-size: unset !important;
