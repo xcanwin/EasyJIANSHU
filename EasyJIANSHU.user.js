@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         EasyJIANSHU
 // @description  这是一款促进简书极致简洁和高效的插件。免费共享大量创新功能，如：净化页面、展示全屏等。让我们的学习体验无比简洁、专注、高效、畅快。
-// @version      5.0
+// @version      6.0
 // @author       xcanwin
 // @namespace    https://github.com/xcanwin/EasyJIANSHU/
 // @supportURL   https://github.com/xcanwin/EasyJIANSHU/
 // @license      GPL-2.0-only
 // @match        *://www.jianshu.com/p/*
+// @match        *://*.jianshu.io/p/*
 // @grant        GM_addStyle
 // @run-at       document-start
 // @downloadURL https://update.greasyfork.org/scripts/481661/EasyJIANSHU.user.js
