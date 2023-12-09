@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EasyJIANSHU
 // @description  这是一款促进简书极致简洁和高效的插件。免费共享大量创新功能，如：净化页面、展示全屏等。让我们的学习体验无比简洁、专注、高效、畅快。
-// @version      3.0
+// @version      4.0
 // @author       xcanwin
 // @namespace    https://github.com/xcanwin/EasyJIANSHU/
 // @supportURL   https://github.com/xcanwin/EasyJIANSHU/
@@ -28,7 +28,6 @@ footer /*隐藏[置顶的][底部的]评论查看栏*/,
 ._2OwGUo /*隐藏[右边的]栏*/,
 ._3kba3h /*隐藏[正文的][顶部的]关注*/,
 ._3URWaO /*隐藏[正文的][顶部的]归属地*/,
-._13D2Eh /*隐藏[正文的][顶部的]头像*/,
 ._3tCVn5 /*隐藏[正文的][顶部的]钻石*/,
 ._1kCBjS /*隐藏[正文的][底部的]文章分类*/,
 ._19DgIp /*隐藏[正文的][底部的]下划线*/,
@@ -59,10 +58,29 @@ footer /*隐藏[置顶的][底部的]评论查看栏*/,
     font-family: 'PingFang SC','Microsoft YaHei','SimHei','Arial','SimSun';
 }
 
+/*调整头像*/
+._13D2Eh {
+    display: none !important;
+    min-width: unset !important;
+    min-height: unset !important;
+    border: unset !important;
+    border-radius: 4px !important;
+    width: 28px !important;
+    height: 28px !important;
+    margin: 6px !important;
+}
+
 /*调整文章信息栏*/
 .rEsl9f {
     background: #f8f8f8;
-    border-radius: 4px;
+    border-radius: 4px !important;
+}
+._3U4Smb {
+    margin-bottom: unset !important;
+    float: left;
+}
+.FxYr8x {
+    font-size: unset !important;
 }
 
 /*展示全屏*/
@@ -81,9 +99,20 @@ footer /*隐藏[置顶的][底部的]评论查看栏*/,
     padding: unset !important;
 }
 `;
+
     //净化页面
     const purifyPage = function() {
         GM_addStyle(purify_style_pc);
+    };
+
+    //调整头像
+    const beautyLOGO = function() {
+        $('._13D2Eh').src = $('link[rel="shortcut icon"]').href;
+        $('._13D2Eh').style = 'display: block !important';
+    };
+
+    window.onload = function() {
+        beautyLOGO();
     };
 
     purifyPage();
